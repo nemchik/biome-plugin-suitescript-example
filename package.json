@@ -1,0 +1,20 @@
+{
+  "name": "biome-plugin-suitescript-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An SDF-shaped project that shows biome-plugin-suitescript catching problems in SuiteScript 2.1.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check-tags": "biome-plugin-suitescript check",
+    "lint": "biome lint src",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.5",
+    "biome-plugin-suitescript": "0.4.0"
+  }
+}

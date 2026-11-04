@@ -1,0 +1,4 @@
+{
+  "$schema": "./node_modules/biome-plugin-suitescript/schema.json",
+  "includes": ["src/FileCabinet/SuiteScripts/**/*.js"]
+}

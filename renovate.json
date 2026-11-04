@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
+  "packageRules": [
+    {
+      "description": "Keep Biome and the plugin on their latest versions so the example tracks releases.",
+      "matchPackageNames": ["@biomejs/biome", "biome-plugin-suitescript"],
+      "rangeStrategy": "pin"
+    }
+  ]
+}
